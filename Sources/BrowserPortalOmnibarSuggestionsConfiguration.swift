@@ -1,9 +1,9 @@
-import SwiftUI
+import CmuxAppKitSupportUI
 
 struct BrowserPortalOmnibarSuggestionsConfiguration {
     let panelId: UUID
     let popupFrame: CGRect
-    let colorScheme: ColorScheme
+    let colorScheme: WindowChromeColorScheme
     let engineName: String
     let items: [OmnibarSuggestion]
     let selectedIndex: Int
